@@ -1,8 +1,8 @@
 //import { useState } from "react";
 
 import "./App.css";
-import { Row, Space } from "antd";
-
+import { Row } from "antd";
+import FilterDrawerButton from "./components/FilterDrawerButton";
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -13,7 +13,7 @@ function App() {
         <div>add employee table here</div>
       </Row>
       <Row>
-        <div>add button here</div>
+        <FilterDrawerButton />
       </Row>
       <Row>
         <div>add drawer here</div>
